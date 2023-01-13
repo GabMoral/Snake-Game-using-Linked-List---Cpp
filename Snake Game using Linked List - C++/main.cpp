@@ -264,9 +264,6 @@ int main() {
 		inFile >> highscore;
 		inFile.close();
 	}
-	//FILE* fscore = fopen("highscore.txt", "r");
-	//fscanf(fscore, "%d", &highscore);
-	//fclose(fscore);
 	while (quitGame == 0) {
 		//Initialize game
 		init(head, &x, &y, &fruitX, &fruitY, &tailLength, &score, &dir);
